@@ -1,0 +1,18 @@
+up untill now, we have been working on predicting the target values ONLY on the basis of image 
+We were either improving model arch OR enhancing the inputs (feature extraction)
+
+
+NOW, we will be building a model that first predicts the meta data from the image such as:- 
+- Species
+- NDVI
+- Height
+
+then, pass this metadata along with the Orignal IMAGE (with multiple channels) TO the final model 
+
+Then the model will predict the following values: -
+
+1) Total Dry mass
+2) total green mass
+3) Total green non clover mass
+
+hopefully this will improve the prection 
